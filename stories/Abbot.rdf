@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://fallout.fandom.com/wiki/Special:URIResolver/'>
+	<!ENTITY category 'http://fallout.fandom.com/wiki/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://fallout.fandom.com/wiki/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl 'https://fallout.fandom.com/wiki/'>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="https://fallout.fandom.com/wiki/Special:ExportRDF/Abbot.txt">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-12T05:31:52+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://fallout.fandom.com/wiki/Special:URIResolver/Abbot.txt">
+		<rdf:type rdf:resource="http://fallout.fandom.com/wiki/Special:URIResolver/Category-3AFallout_4_dialogue_files"/>
+		<rdfs:label>Abbot.txt</rdfs:label>
+		<swivt:page rdf:resource="https://fallout.fandom.com/wiki/Abbot.txt"/>
+		<rdfs:isDefinedBy rdf:resource="https://fallout.fandom.com/wiki/Special:ExportRDF/Abbot.txt"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-30T12:33:19Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457965.0231366</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abbot.txt</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://fallout.fandom.com/wiki/Special:URIResolver/Category-3AFallout_4_dialogue_files" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://fallout.fandom.com/wiki/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, https://www.semantic-mediawiki.org/ -->
+</rdf:RDF>
